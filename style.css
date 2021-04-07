@@ -23,7 +23,7 @@ header {
   }
 
   footer {
-    height: 200px;
+    min-height: 100px;
     background-color: black;
     color : gainsboro;
   }
@@ -43,7 +43,7 @@ header {
 
   .card-top {
       background-color: pink;
-      min-height : 135px;
+      min-height : 165px;
   }
 
 
