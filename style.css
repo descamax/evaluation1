@@ -1,6 +1,5 @@
 header {
-    height: 200px;
-    background-color: cadetblue;
+    background-color: black;
   }
 
   .logo, .badge {
@@ -9,7 +8,8 @@ header {
 
   nav {
     height: 80px;
-    background-color: darkgoldenrod;
+    background-color: red;
+    color : white;
   }
 
   aside {
@@ -29,5 +29,15 @@ header {
 
   footer {
     height: 200px;
-    background-color: cadetblue;
+    background-color: black;
+    color : gainsboro;
+  }
+
+  .card {
+      background-color: black;
+      color : white;
+  }
+
+  body {
+      background-color : red;
   }
