@@ -17,11 +17,6 @@ header {
     background-color: lightslategray;
   }
 
-  .article1, .article2, .article3 {
-    height: 200px;
-    background-color: deeppink;
-  }
-
   .article4 {
     height: 400px;
     background-color: greenyellow ;
@@ -33,11 +28,19 @@ header {
     color : gainsboro;
   }
 
-  .card {
+  .card-black {
       background-color: black;
       color : white;
   }
 
   body {
       background-color : red;
+  }
+
+  .img-content {
+      height : 30%;
+  }
+
+  .card-top {
+      background-color: pink;
   }
