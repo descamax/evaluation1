@@ -43,6 +43,7 @@ header {
 
   .card-top {
       background-color: pink;
+      min-height : 135px;
   }
 
 
@@ -65,4 +66,21 @@ header {
   .black {
       background-color: black;
       color : white;
+  }
+
+  .card-pitch {
+    height : 350px;
+  }
+
+  .card-who {
+    height : 330px;
+  }
+
+  .vignette {
+    height = 100px;
+  }
+
+  .img-who {
+    max-height : 220px;
+    width : auto;
   }
