@@ -71,10 +71,6 @@ header {
     height : 330px;
   }
 
-  .vignette {
-    height = 100px;
-  }
-
   .img-who {
     max-height : 220px;
     width : auto;
@@ -91,4 +87,8 @@ header {
   .taille-vignette-index {
     background-size: cover;
     height : 200px;
+  }
+
+  .card-pink{
+    background-color: pink;
   }
