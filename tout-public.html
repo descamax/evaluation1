@@ -13,7 +13,7 @@
 
     <!-- partie entête / idem sur toutes les pages -->
 
-    <header class="text-center">
+    <header class="text-center" id="haut-de-page">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -39,38 +39,34 @@
     <div>
         <section class="white">
             <div class="container-md sticky-top">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-light sticky-top navigation">
-                        <div class="container-fluid">
-                          <a class="navbar-brand" href="#">Compagnie RêVOLT</a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <nav class="navbar navbar-expand-lg navbar-light sticky-top navigation">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Compagnie RêVOLT</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
-                              <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="jeune-public.html">Jeune Public</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link active" href="tout-public.html" aria-disabled="true">Tout-public</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="mediation.html">Médiation culturelle</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="qui-sommes-nous.html">Qui sommes-nous ?</a>
-                              </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="jeune-public.html">Jeune Public</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" aria-disabled="true">Tout-public</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mediation.html">Médiation culturelle</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+                                </li>
                             </ul>
-                          </div>
                         </div>
-                      </nav>
-                </div>
+                    </div>
+                </nav>
             </div>
-            
-
         </section>
     </div>
 
@@ -78,7 +74,6 @@
 
 <!-- partie dévolue au contenu / différent pour chaque page -->
 
-    <div class="container-md">
 
 <!-- vignettes spectacles-->
         <section class="row justify-content-around">
@@ -110,11 +105,6 @@
             <div class="col-2">
                 <a href="#FMM">
                     <img class="img-fluid" src="images/affiche-FMM.jpg">
-                </a>
-            </div>
-            <div class="col-2">
-                <a href="#VID">
-                    Vidéos
                 </a>
             </div>
         </section>
@@ -150,9 +140,7 @@
                 </div>
             </article>
             
-
-
-            <!-- spectacle BI-->
+<!-- spectacle boxe impro-->
 
             <article class="article1 col-12 col-md-6 col-xl-4 p-1 text-center" id="BI">
                 <div class="card">
@@ -162,11 +150,9 @@
                     <div class="card-body card-top">
                         <h4 class="card-title">Boxe Impro</h4>
                         <p class="card-text">
-                            Improvisation "punchy"
-                            <br>de 60 à 90 minutes
-                            <br><i>création 2011</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
-                        
                     </div>
 
                     <!-- img-affiche-->
@@ -175,50 +161,51 @@
                         <img class="card-img p-1" src="images/affiche-BI.jpg" alt="image par défaut">
                     </div>
 
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
+
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Un ring, deux "impro-boxeurs", un arbitre, et c'est parti !
-                            Les "rounds" s'enchaînent à partir des propositions des spectateurs, en respectant les contraintes désopilantes de l'arbitre : 
-                            En chantant, avec des accents imposés, à la manière d'un film policier...
-                            <br>
-                            Les spectateurs ont la tâche de désigner le vainqueur de chaque round.
-                            <br>
-                            Un spectacle sans aucun temps mort !
-                            <br>
-                            Echauffez vos zygomatiques : ils vont être mis à rude épreuve !
-                        </p>
-                    </div>
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
 
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="img-who card-img p-1" src="images/BI-en-jeu.JPG" alt="Boxe Impro en Jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Un format d'impro particulièrement pour ceux qui connaissent le "match d'impro" mais souhaitent voir autre chose.
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            Boxe Impro peut être joué pour des jauges moyennes ou grosses (nous équipons alors les comédiens de micro)
-                            Autonomie technique si besoin.
-                        </p>
-                        <p><b>La promesse d'une soirée pleine de rires</b></p>
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
+                            <br>
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
+                            <br>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/BI-en-jeu.JPG" alt="image par défaut">
+                            </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
-
-
-
-            <!-- spectacle CDP-->
+<!-- spectacle CDP -->
 
             <article class="article1 col-12 col-md-6 col-xl-4 p-1 text-center" id="CDP">
                 <div class="card">
@@ -226,58 +213,64 @@
                     <!-- card-top-->
 
                     <div class="card-body card-top">
-                        <h4 class="card-title">Comme des poissons dans l'eau</h4>
+                        <h4 class="card-title">Comme des Poissons dans l'eau</h4>
                         <p class="card-text">
-                            Comédie d'anticipation
-                            <br>65 minutes /
-                            <i>création 2018</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
                     </div>
 
                     <!-- img-affiche-->
 
                     <div class="img-affiche">
-                        <img class="card-img p-1" src="images/affiche-CDP.jpg" alt="affiche comme des poissons dans l'eau">
+                        <img class="card-img p-1" src="images/affiche-CDP.jpg" alt="image par défaut">
                     </div>
+
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
 
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Trois personnages sont enfermés dans un lieu, sans savoir pourquoi ni depuis quand. 
-                            Et pour cause : ils ont une mémoire extrêmememt limitée qui n'excède pas deux minutes pour le plus atteint d'entre eux !
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
+
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            C'est alors qu'apparaît un quatrième protagoniste qui va bouleverser l'équilibre : 
-                            était-il caché depuis trop longtemps pour qu'on s'en souvienne ou dispose-t-il d'une vraie mémoire comme il le prétend ?
-                        </p>
-                    </div>
-
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="img-who card-img p-1" src="images/CDP-en-jeu.JPG" alt="Comme des Poissons dans l'eau en jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Un spectacle au genre atypique qui mêle comédie et science-fiction !
-                            Il peut se jouer en salle équipée, mais nous pouvons proposer tout le matériel scénique si besoin.
-                            <br>Un spectacle familial, qui fera rire les plus jeunes, et questionnera les adultes sur le monde dans lequel on vit...
-                        </p>
-                        <p><b>Deux ans de succès au festival d'Avignon</b></p>
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
+                            <br>
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
+                            <br>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/CDP-en-jeu.JPG" alt="image par défaut">
+                            </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
-
-
-<!-- spectacle COCK-->
+<!-- Spectacle COCKTHEME -->
 
             <article class="article1 col-12 col-md-6 col-xl-4 p-1 text-center" id="COCK">
                 <div class="card">
@@ -287,57 +280,60 @@
                     <div class="card-body card-top">
                         <h4 class="card-title">Cockthème d'impro</h4>
                         <p class="card-text">
-                            Improvisation Théâtrale
-                            <br>Durée personnalisable
-                            <br><i>création 2020</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
                     </div>
 
                     <!-- img-affiche-->
 
                     <div class="img-affiche">
-                        <img class="card-img p-1" src="images/affiche-COCK.jpg" alt="affiche cockthème">
+                        <img class="card-img p-1" src="images/affiche-COCK.jpg" alt="image par défaut">
                     </div>
+
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
 
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Ce format d'improvisation pour trois comédiens est extrêmement simple :
-                            Le premier comédien fait une phrase qui débutera l'improvisation.
-                            Le deuxième comédien tire des mots du public pour fabriquer un thème en direct qu'il ne révèle pas au premier comédien.
-                            Et le troisième ajoute une contrainte de jeu (sans parole, à la manière d'un film d'horreur, etc.) !
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
+
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            Tout est en place pour 5 minutes de rire et de complicité avec le public ! 
-                        </p>
-                    </div>
-
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="img-who card-img p-1" src="images/COCK-en-jeu.JPG" alt="Cockthème d'impro en jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Un format frais qui apportera du renouveau dans le monde de l'impro !
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
                             <br>
-                            Format très léger qui peut se jouer en petite et moyenne jauge (jusqu'à 200 spectateurs)
-                            L'absence de décor lui permet de s'adpter à n'importe quel lieu.
-                        </p>
-                        <p><b>Un format d'impro frais et original</b></p>
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
+                            <br>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/COCK-en-jeu.JPG" alt="image par défaut">                          </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
-
-
 
 <!-- spectacle FA2 -->
 
@@ -347,55 +343,63 @@
                     <!-- card-top-->
 
                     <div class="card-body card-top">
-                        <h4 class="card-title">Les Monologues de Feydeau (mais à deux) </h4>
+                        <h4 class="card-title">Les Monologues de Feydeau (à deux)</h4>
                         <p class="card-text">
-                            Courtes pièces de Feydeau
-                            <br>70 minutes / <i>création 2019</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
                     </div>
 
                     <!-- img-affiche-->
 
                     <div class="img-affiche">
-                        <img class="card-img p-1" src="images/affiche-FA2.jpg" alt="affiche Feydeau">
+                        <img class="card-img p-1" src="images/affiche-FA2.jpg" alt="image par défaut">
                     </div>
+
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
 
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Vous allez découvrir sept courtes de pièces de Feydeau, assez méconnues, écrites pour un comédien.
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
+
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            Le hic, c'est que le comédien est accompagné de sa petite voix : celle qu'on ne voit pas mais qui ne le quitte pas !
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
                             <br>
-                            Vous allez plonger avec hilarité dans un subtil mélange entre textes ciselés de Feydeau, mises-en-scène inattendues, et mise-en-abîme décalée !
-                        </p>
-                    </div>
-
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="card-img p-1 img-who" src="images/FA2-en-jeu.JPG" alt="Feydeau en jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Décor très simple qui permet à ce spectacle de se jouer dans n'importe quel cadre, d'autant plus que nous pousons être autonomes techniquement.
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
                             <br>
-                            Il dispose de deux degrés de lectures, qui feront que les jeunes spectateurs y trouveront autant leur compte que les adultes.
-                        </p>
-                        <p><b>Un condensé de fantaisie !</b></p>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/FA2-en-jeu.JPG" alt="image par défaut">
+                            </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
-
 <!-- spectacle JPS -->
 
             <article class="article1 col-12 col-md-6 col-xl-4 p-1 text-center" id="JPS">
@@ -406,56 +410,63 @@
                     <div class="card-body card-top">
                         <h4 class="card-title">Le Jamais Pareil Show</h4>
                         <p class="card-text">
-                            Improvisation de proximité
-                            <br>durée à votre convenance
-                            <br><i>création 2013</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
                     </div>
 
                     <!-- img-affiche-->
 
                     <div class="img-affiche">
-                        <img class="card-img p-1" src="images/affiche-JPS.jpg" alt="affiche Jamais Pareil Show">
+                        <img class="card-img p-1" src="images/affiche-JPS.jpg" alt="image par défaut">
                     </div>
+
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
 
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Les spectacles d'improvisation que cumulent Johann Corre et Maxence Descamps se comptent par centaines.
-                            Ils ont créé ici un spectacle qui ne laisse de place à rien d'autre qu'à l'inattendu et la proximité !
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
+
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            Les thèmes viennent du public, de la presse, ou de l'environnement, et les impros s'enchâinent à un rythme effréné !
-                            L'espace de jeu et l'espace des spectateurs se confondent pour le plus grand plaisir de tous !
-                        </p>
-                    </div>
-
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="card-img p-1 img-who" src="images/JPS-en-jeu.JPG" alt="JPS en jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Un spectacle qui peut se jouer à l'extérieur sans technique : une simple arrivée électrique pour la musique, et c'est parti !
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
                             <br>
-                            Le spectacle peut aussi se jouer dans les restaurants ou à l'occasion d'une fête.
-                            La proximité avec les spectateurs le destine plutôt à des jauges relativement petites (inférieures à 100 personnes)
-                        </p>
-                        <p><b>Un spectacle hautement adaptatif !</b></p>
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
+                            <br>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/JPS-en-jeu.JPG" alt="image par défaut">
+                            </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
 
-            <!-- spectacle FMM-->
+<!-- spectacle FMM-->
 
             <article class="article1 col-12 col-md-6 col-xl-4 p-1 text-center" id="FMM">
                 <div class="card">
@@ -465,61 +476,67 @@
                     <div class="card-body card-top">
                         <h4 class="card-title">Feu la Mère de Madame</h4>
                         <p class="card-text">
-                            Comédie de Feydeau
-                            <br>75 minutes 
-                            <br><i>création 2015</i>
+                        Théâtre Magique
+                        <br>de 50 à 70 minutes / <i>création 2013</i>    
                         </p>
                     </div>
 
                     <!-- img-affiche-->
 
                     <div class="img-affiche">
-                        <img class="card-img p-1" src="images/affiche-FMM.jpg" alt="affiche Feu la mère de madame">
+                        <img class="card-img p-1" src="images/affiche-FMM.jpg" alt="image par défaut">
                     </div>
+
+                    <p><b>plus de 20.000 spectateurs !</b></p>
+
 
                     <!-- card-pitch -->
 
-                    <div class="card-body card-pitch">
-                        <h5 class="card-title">Le pitch</h5>
-                        <p class="card-text justify">
-                            Le grand classique de Feydeau interprété par 4 comédiens amateurs talentueux. 
-                            <br>Lucien rentre en pleine nuit, et passablement éméché. Yvonne, son épouse, n'apprécie que moyennement.
-                            <br>Alors que la dispute bat son plein en pleine nuit, on sonne à la porte... Ce ne peut-être que quelque chose de grave !
-                            <br>Quiproquos, comique de situation, répliques savoureuses... Du grand Feydeau !
-                        </p>
-                    </div>
+                    <div class="card-body">
+                        <button class="accordion">
+                            Le pitch
+                        </button>
 
-                    <!-- img-who-->
-
-                    <div>
-                        <img class="img-who card-img p-1" src="images/FMM-en-jeu.JPG" alt="Comme des Poissons dans l'eau en jeu">
-                    </div>
-
-                    <!-- card-who-->
-
-                    <div class="card-body card-who">
-                        <h5 class="card-title">Pour qui ?</h5>
-                        <p class="card-text justify">
-                            Le seul spectacle amateur de notre catalogue, mais qui vaut vraiment le détour !
-                            Il plaira à toute la famille, et les amoureux du théâtre de boulevard se régaleront grâce à une mise-en-scène facétieuse à souhait !
+                        <div class="panel">
+                            <p class="card-text justify">
+                            Max est un pirate. Enfin... c'est ce qu'il aimerait faire croire !
+                            Ce matin, on a sonné à sa porte, et il a trouvé un coffre posé devant sa porte.
                             <br>
-                            Le décor n'est pas trop imposant, et nous pouvons aménager votre espace en pendrillons et en matériel technique.
-                        </p>
-                        <p><b>Une valeur sûre !</b></p>
+                            Tout laisse croire que ce coffre va le mener jusqu'à un fabuleux trésor oublié...
+                            Mais comment faire sans équipage pour l'appuyer ?
+                            <br>
+                            Ni une, ni deux, Max enrôle les enfants et les entraîne avec lui dans une aventure mêlant suspense et rire !
+                            <br>
+                            Un spectacle hautement participatif ! 
+                            </p>
+                            <div>
+                                <img class="img-who card-img p-1" src="images/FMM-en-jeu.JPG" alt="image par défaut">
+                            </div>
+                        </div>
+                        <button class="accordion">
+                        Pour qui ?
+                        </button>
+                        <div class="panel">
+                            <h5 class="card-title">Pour qui ?</h5>
+                            <p class="card-text justify">
+                            Un spectacle particulièrement adapté pour les grosses jauges (mais pas que !).
+                            <br>
+                            Ce spectacle est un véritable tout-terrain ! Il peut être présenté pour un public familial, ou composé uniquement d'enfants !
+                            Conçu initialement pour les 6-12 ans, il existe aussi en version spéciale pour les enfants de 3 à 6 ans.
+                            </p>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-danger">Haut de page</a>
+                        <a href="#haut-de-page" class="btn btn-danger">haut de page</a>
                     </div>
                 </div>
             </article>
 
 
-
-           
+       
           </div>
         </div>
       </section>
-    </div>
     
 <!-- pied de page - idem sur toutes les pages -->
 
@@ -532,6 +549,8 @@
         </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="accordeon.js"></script>
+
   </body>
 
 </html>
