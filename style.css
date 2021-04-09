@@ -36,6 +36,9 @@ header {
 
   body {
       background-color : red;
+      display : block;
+      width : 95%;
+      margin : auto;
   }
 
   .card-top {
@@ -146,3 +149,4 @@ header {
       text-align : middle;
       margin-top : 20px;
     }
+
