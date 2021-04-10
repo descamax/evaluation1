@@ -164,3 +164,22 @@ h1 {
 .logo, .badge {
     background-color: coral;
   }
+
+.img-menu {
+  display : inline;
+  width : 90%;
+  max-height : 300px;
+}
+
+.img-bloc-menu {
+  display : flex;
+  direction : row;
+  flex-wrap : nowrap;
+  justify-content : space-evenly;
+  align-items : center;
+  justify-items : center;
+}
+
+.img-center {
+  text-align : center;
+}
