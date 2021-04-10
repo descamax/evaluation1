@@ -1,11 +1,7 @@
 todo list
 
-contenu du mediation
 photo jeune public (cache-oeil enfant)
-vérifier tous les liens
 meta données référencement
 indentation à ajuster
 css à vérifier (supprimer et factoriser)
-lien mailto : ajouter un objet
-donner la possibilité de contacter depuis chaque spectacle
-
+uniformiser taille des images affiches dans les cartes
