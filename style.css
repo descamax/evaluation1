@@ -49,6 +49,10 @@ h1 {
   color : white;
 }
 
+.pink {
+  background-color: pink;
+}
+
 
 /* styles sur les card */
 
@@ -166,6 +170,35 @@ h1 {
   justify-content : space-evenly;
   height : 60px;
   align-items : center;
+}
+
+.bloc-sous-titre{
+  display : flex;
+  justify-content : space-evenly;
+  height : 90px;
+  align-items : center;
+  margin-bottom : -25px;
+  margin-top : 15px;
+}
+
+.text-sous-titre{
+  margin-left : 15px;
+  margin-right : 15px;
+  text-align : center;
+}
+
+.bloc-titre{
+  display : flex;
+  justify-content : space-evenly;
+  height : 70px;
+  align-items : center;
+  margin-top : -5px;
+}
+
+.text-titre{
+  margin-left : 15px;
+  margin-right : 15px;
+  text-align : center;
 }
 
 /** images **/
