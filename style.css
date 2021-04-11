@@ -35,8 +35,6 @@ h1 {
 
 /* style couleurs */
 
-
-
 .white {
       background-color: white;
   }
@@ -68,27 +66,20 @@ h1 {
       min-height : 165px;
   }
 
-  .card-pitch {
-    height : 350px;
-  }
+.card-pitch {
+  height : 350px;
+}
 
 .card-who {
     height : 330px;
   }
 
-  .presentation-card {
+.presentation-card {
     min-height : 200px;
   }
 
 .card-index {
     min-height : 160px;
-  }
-
-
-
-.article4 {
-    height: 400px;
-    background-color: greenyellow ;
   }
 
 .navigation {
