@@ -2,6 +2,5 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 meta données référencement
-indentation à ajuster
-css à vérifier (supprimer et factoriser)
-uniformiser taille des images affiches dans les cartes
+menu déroulant mobile à opacifier
+images de l'index à proposer différemment

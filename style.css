@@ -86,6 +86,12 @@ h1 {
     min-height : 160px;
   }
 
+.card-accueil:hover {
+  border : yellow;
+  background-color: pink;
+  margin : 1px;
+}
+
 .navigation {
       background-color: white;
   }
