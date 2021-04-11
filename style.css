@@ -46,6 +46,11 @@ h1 {
       color : white;
   }
 
+.red {
+  background-color: red;
+  color : white;
+}
+
 
 /* styles sur les card */
 
@@ -203,6 +208,11 @@ h1 {
   width: 5%;
 }
 .enveloppe:hover{
-  width :6%;
+  width :5.5%;
   transition : 0.2s ;
+}
+
+.btn:hover{
+  box-shadow : 2px 4px 10px 3px rgba(255, 144, 144, 0.75);
+
 }
