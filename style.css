@@ -259,3 +259,16 @@ h1 {
 .logo{
   width : 90%;
 }
+
+
+@media (min-width:992px){
+  .pc-only {
+    display: block !important;
+  }
+}
+
+@media (max-width:991px){
+  .pc-only{
+    display: none !important;
+  }
+}
