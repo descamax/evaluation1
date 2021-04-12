@@ -4,5 +4,4 @@ photo jeune public (cache-oeil enfant)
 images de l'index à proposer différemment (optionnel)
 
 bug affichage des images-liens jeune-public sur chrome et edge
-liens externes mal codés (ajouter url)!
 trouver pourquoi la balise title s'affiche en haut de page quand on met la meta description sauf pour la page index
