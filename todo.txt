@@ -2,3 +2,10 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 images de l'index à proposer différemment (optionnel)
+
+images trop longues à s'afficher
+nom des images
+problèmes d'affichage des images who
+entête pas optimal sur mobile
+
+trouver pourquoi la balise title s'affiche en haut de page quand on met la meta description sauf pour la page index
