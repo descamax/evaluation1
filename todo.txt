@@ -2,6 +2,4 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 meta données référencement
-menu déroulant mobile à opacifier
 images de l'index à proposer différemment (optionnel)
-rendre le menu flottant
