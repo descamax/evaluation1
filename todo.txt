@@ -8,3 +8,5 @@ bug affichage des images-liens jeune-public sur chrome et edge (page jeune-publi
 trouver pourquoi la balise title s'affiche en haut de page quand on met la meta description sauf pour la page index
 
 réaligner les boutons des cartes : alignement vertical en media query ?
+
+images qui ne s'affichent pas : mediation / photo team building / photo escape game / photo CDT / photo boxe-impro / photo cockthème / 
