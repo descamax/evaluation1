@@ -2,6 +2,4 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 
-trouver pourquoi la balise title s'affiche en haut de page quand on met la meta description sauf pour la page index
-
-réaligner les boutons des cartes : alignement vertical en media query ?
+ajouter picto dans fenêtre navigateur
