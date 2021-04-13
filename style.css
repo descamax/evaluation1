@@ -220,6 +220,7 @@ h1 {
   display : inline;
   width : 90%;
   max-height : 300px;
+  max-width : 200px;
   box-shadow : 4px 4px 10px 3px rgba(255, 144, 144, 0.75);
   transition : 0.2s;
 }
