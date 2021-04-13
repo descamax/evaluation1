@@ -266,6 +266,10 @@ h1 {
   .pc-only {
     display: block !important;
   }
+
+  .card-footer-mobile {
+    display : none;
+  }
 }
 
 @media (max-width:991px){
@@ -275,6 +279,10 @@ h1 {
 
   .mobile-border {
     border : solid black 1px;
+  }
+
+  .card-footer-mobile {
+    height : 10px;
   }
 }
 
@@ -288,3 +296,4 @@ h1 {
   box-shadow : 4px 4px 10px 3px rgba(255, 144, 144, 0.75);
   margin-top : -5px;
 }
+
