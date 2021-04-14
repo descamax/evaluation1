@@ -297,3 +297,6 @@ h1 {
   margin-top : -5px;
 }
 
+.go-up:hover {
+  height : 18px;
+}
