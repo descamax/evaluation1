@@ -2,4 +2,5 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 
-ajouter picto dans fenêtre navigateur
+favicon ne focntionne pas => à corrgier
+remplacer "haut de page" par un picto
