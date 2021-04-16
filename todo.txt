@@ -2,5 +2,4 @@ todo list
 
 photo jeune public (cache-oeil enfant)
 
-favicon ne focntionne pas => à corrgier
-remplacer "haut de page" par un picto
+partenaires : séparer en parageaphes
